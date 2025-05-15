@@ -16,6 +16,7 @@
     "@types/react-dom": "19.0.0",
     "loader-utils": "3.2.1",
     "typescript": "5.7.2"
+    "worker-plugin": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

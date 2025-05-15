@@ -1,0 +1,124 @@
+/* src/styles/main.css */
+
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Tahoma", sans-serif;
+  background: #f8f5ff;
+  color: #3b0262;
+  direction: rtl;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.page-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+}
+
+.content {
+  max-width: 400px;
+  width: 100%;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+.muted,
+.muted-text {
+  color: #8b80a8;
+}
+
+.muted-list {
+  list-style: disc inside;
+  padding-right: 1rem;
+  color: #8b80a8;
+  text-align: right;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgb(70 50 100 / 0.15);
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.card-content p {
+  margin: 0.3rem 0;
+}
+
+.btn {
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:disabled {
+  background-color: #b39ddb;
+  cursor: not-allowed;
+}
+
+.tickets-list {
+  margin-top: 0.5rem;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8rem;
+  color: #5e4b8b;
+  word-break: break-all;
+  text-align: left;
+}
+
+.bottom-nav {
+  background-color: #ede7f6;
+  border-top: 1px solid #d1c4e9;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 0;
+  color: #5e35b1;
+  font-weight: 600;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  color: #5e35b1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0.2rem 0;
+  gap: 4px;
+}
+
+.nav-btn:hover {
+  color: #7c4dff;
+}
+
+.center-btn {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #6a1b9a;
+}

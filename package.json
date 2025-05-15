@@ -1,33 +1,29 @@
 {
-  "name": "react",
+  "name": "shanset",
   "version": "1.0.0",
   "description": "",
-  "keywords": [],
   "main": "src/index.tsx",
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.0",
-    "firebase": "11.7.2",
-    "lucide-react": "0.510.0"
-  },
-  "devDependencies": {
-    "@types/react": "19.0.0",
-    "@types/react-dom": "19.0.0",
-    "loader-utils": "3.2.1",
-    "typescript": "5.7.2",
-    "worker-plugin": "^5.0.0"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "dependencies": {
+    "firebase": "^11.7.2",
+    "lucide-react": "^0.263.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
+  },
   "browserslist": [
     ">0.2%",
     "not dead",
-    "not ie <= 11",
     "not op_mini all"
   ]
 }
